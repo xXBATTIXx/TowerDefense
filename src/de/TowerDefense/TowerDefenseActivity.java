@@ -1,6 +1,7 @@
 package de.TowerDefense;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -24,6 +25,13 @@ public class TowerDefenseActivity extends Activity implements OnClickListener {
     
     public void onClick(View v) {
     	
+    	 if (v == button_start)
+    	 {
+    		 new AlertDialog.Builder(this).setMessage(
+                     "hallo").setNeutralButton(
+                     "ok",
+                     null).show();
+    	 }
     	
     	
     }

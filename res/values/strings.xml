@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World, TowerDefenseActivity!</string>
     <string name="app_name">TowerDefense</string>
+    <string name="start">Start</string>
 
 </resources>
